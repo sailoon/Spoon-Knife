@@ -5,9 +5,15 @@
 	<title>Document</title>
 </head>
 <body>
-	<button onclick="a()"></button>
+	<button onclick="a()">OK</button>
+	<button onclick="b()">Cancel</button>
 	<script type="text/javascript">
       function a()
+      {
+      	var url = "http://www.example.com";
+      	window.open(url, '_blank');
+      }
+      function b()
       {
       	var url = "http://www.example.com";
       	window.open(url, '_blank');
